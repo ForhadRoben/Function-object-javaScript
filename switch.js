@@ -38,3 +38,4 @@ switch (color) {
     default:
         console.log('You are a kala kala friend');
 }
+

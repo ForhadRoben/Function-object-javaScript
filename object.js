@@ -20,6 +20,6 @@ var myComputer = {
     processor: 'i7'
 }
 
-console.log(myComputer.processor);
-myComputer.processor = 'i79';
+console.log(myComputer.processor); //get property values
+myComputer.processor = 'i79'; // set property values
 console.log(myComputer)

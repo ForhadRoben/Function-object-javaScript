@@ -6,13 +6,13 @@ var friendsAge = {
     samad: 45,
     karim: 78,
     jamal: 12,
-    robi:32,
+    robi: 32,
     kazi: 14
 }
 
 
 var shoppingCart = {
-    books: 3, 
+    books: 3,
     sunglass: 1,
     keyboard: 5,
     mouse: 1,
@@ -27,15 +27,39 @@ const values = Object.values(shoppingCart);
 console.log(values);
 
 // var keys = [ 'books', 'sunglass', 'keyboard', 'mouse', 'pen', 'shoes' ];
-for(var i = 0; i < keys.length; i++){
+for (var i = 0; i < keys.length; i++) {
     var propertyName = keys[i];
-    var propertyValue = shoppingCart[propertyName];
+    // var propertyValue = shoppingCart[propertyName];
     // console.log(propertyName, propertyValue);
 }
 
 // for in loop
-for(var propertyName in shoppingCart){
+for (var propertyName in shoppingCart) {
     const value = shoppingCart[propertyName];
     console.log(propertyName, value);
 
 }
+
+
+
+/* for (const key in object) {
+    if (Object.hasOwnProperty.call(object, key)) {
+        const element = object[key];
+
+    }
+}
+for (const iterator of object) {
+
+} */
+
+
+
+/* for (let i = 0; i < keys.length; i++) {
+    var abc = keys[i];
+    // var valueOfabc = shoppingCart[abc];
+    // console.log(abc, valueOfabc);
+}
+for (const abc in shoppingCart) {
+    const valueOfabc = shoppingCart[abc];
+    console.log(abc, valueOfabc);
+} */
